@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "zoony.birds.arent.real.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+  ],
+  "client": [
+    "BirdsArentRealMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

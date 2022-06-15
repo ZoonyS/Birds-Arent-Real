@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "birdsarentreal",
+  "version": "${version}",
+
+  "name": "Birds Aren't Real",
+  "description": "A Minecraft Mod which makes chickens more realistic to what they are in real life.",
+  "authors": [
+    "Zoony"
+  ],
+  "contact": {
+    "homepage": "https://twitter.com/Zoonyism",
+    "youtube": "https://www.youtube.com/channel/UCqvYuC40ga-icHdCQLbUh8A/",
+    "sources": "https://github.com/ZoonyS/Birds-Arent-Real",
+    "issues": "https://github.com/ZoonyS/Birds-Arent-Real/issues"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/birdsarentreal/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "zoony.birds.arent.real.common.BirdsArentReal"
+    ]
+  },
+  "mixins": [
+    "birdsarentreal.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17",
+    "geckolib3": ">=3.1.0"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
